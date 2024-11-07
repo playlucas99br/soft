@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    display: flex;
+    background-color: var(--lightbars);
+    height: 72px;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-around;
+    width: 99%;
+    box-shadow: 0px -8px 10px 20px var(--lightbars);
+    margin-bottom: 10px;
+  }
+
+#logo{
+    object-position: 0px -52px;
+    object-fit: cover;
+    width: 15rem;
+    height: 8rem;
+}
+ 
+.nav-container{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav{
+    font-weight: bold;
+    color: var(--inputselect);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-container a:hover{
+    color: var(--background);
+    transition: 0.3s ;
+  }
+.nav-container a.transition,
+.nav-container a:active{
+    color: var(--background);
+}
+
+a.active{
+    color: var(--background);
+}

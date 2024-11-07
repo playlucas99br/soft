@@ -1,0 +1,117 @@
+.submit{
+    padding: 15px;
+    background-color: var(--lightbars);
+    font-weight: bold;
+    border-radius: 10px;
+    color: var(--inputselect);
+    font-weight: bold;
+    border: 2px solid var(--addblack);
+    font-size: 1rem;
+}
+
+.submit:hover{
+    background-color: var(--lightbarsplus);
+    transition: 0.3s ;
+  }
+.submit.transition,
+.submit:active{
+    color: var(--lightbarsplus);
+}
+
+
+
+/*---------------------------------------------------*/
+
+.delete{
+    background: none;
+    border: none; 
+    color: var(--background);
+}
+
+.delete:hover{
+    color: var(--backgroundplus);
+    transition: 0.3s ;
+  }
+.delete.transition,
+.delete:active{
+    color: var(--backgroundplus);
+}
+
+/*---------------------------------------------------*/
+
+
+.edit{
+    background: none;
+    border: none; 
+    color: var(--background);   
+}
+
+.edit:hover{
+    color: var(--backgroundplus);
+    transition: 0.3s
+}
+
+.edit.delete.transition,
+.edit.delete:active{
+    color: var(--backgroundplus);
+}
+
+/*---------------------------------------------------*/
+.view{
+    background: none;
+    border: none; 
+    color: var(--background);   
+}
+
+.view:hover{
+    color: var(--backgroundplus);
+    transition: 0.3s
+}
+
+.view.delete.transition,
+.view.delete:active{
+    color: var(--backgroundplus);
+}
+/*---------------------------------------------------*/
+
+.homebuttoncancel{
+    padding: 5px;
+    background-color: var(--lightbars);
+    font-weight: bold;
+    border-radius: 10px;
+    color: var(--inputselect);
+    font-weight: bold;
+    border: 2px solid var(--addblack);
+    font-size: 1rem;
+    width: 100px;
+}
+
+.homebuttoncancel:hover{
+    background-color: var(--lightbarsplus);
+    transition: 0.3s ;
+  }
+.homebuttoncancel.transition,
+.homebuttoncancel:active{
+    color: var(--lightbarsplus);
+}
+
+.homebuttonfinish{
+    padding: 5px;
+    background-color: var(--lightbarswhite);
+    font-weight: bold;
+    border-radius: 10px;
+    color: var(--inputbase);
+    font-weight: bold;
+    border: 2px solid var(--addblack);
+    font-size: 1rem;
+    width: 100px;
+}
+
+.homebuttonfinish:hover{
+    background-color: var(--lightbarsplus);
+    transition: 0.3s ;
+  }
+.homebuttonfinish.transition,
+.homebuttonfinish:active{
+    color: var(--lightbarsplus);
+}

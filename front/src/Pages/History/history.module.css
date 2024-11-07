@@ -1,0 +1,14 @@
+#main{
+    padding: 10px;
+}
+
+#test{
+    border: 1px solid white;
+    padding: 20px;
+}
+
+#vitor{
+    height: 70vh;
+    overflow-y: auto;
+    border: 1px solid white;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categories</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <div id="tudo">
+      <header>
+        <h1><a href="../HOME/Home.html">Suite store</a></h1>
+        <ul>
+          <li><a href="../Products/Products.html">Products</a></li>
+          <li><a href="../Categories/Categories.html">Categories</a></li>
+          <li><a href="../History/History.html">History</a></li>
+        </ul>
+      </header>
+
+      <div id="categorias">
+        <form id="chefe" action="post">
+          <section id="categorias2">
+            <input
+              type="text"
+              id="barra_categoria"
+              name="barraName"
+              placeholder="Category name"
+              maxlength="25"
+              required
+            />
+            <br />
+            <input
+              type="number"
+              id="barra_tax"
+              name="barraTax"
+              min="0"
+              max="100"
+              placeholder="TAX"
+              required
+            />
+            <br />
+
+            <input
+              type="button"
+              name="add_category"
+              id="botao_add"
+              onclick="addnewcategory()"
+              value="Add Category"
+            />
+          </section>
+        </form>
+        <div id="borda"></div>
+        <section id="">
+          <table>
+            <thead>
+              <tr>
+                <th id="Cod">Cod</th>
+                <th id="Category">Category</th>
+                <th id="Tax">Tax</th>
+              </tr>
+            </thead>
+            <tbody id="tabela"></tbody>
+          </table>
+        </section>
+      </div>
+      <div id="linhaBaixo"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

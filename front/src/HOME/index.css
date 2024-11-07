@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow-x: hidden;
+  overflow: auto;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+#tudo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#direita {
+  margin-bottom: 10px;
+}
+
+header {
+  color: black;
+  position: relative;
+  background-color: #6a65fe;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  font-family: Arial;
+  gap: 10px;
+}
+
+#addproducts {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#chefe {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  max-height: 161px;
+}
+
+#qualquer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+#botao_baixo {
+  bottom: 0;
+}
+
+#baixo {
+  display: flex;
+  margin-top: 10px;
+  font-size: 24px;
+  gap: 5px;
+}
+
+#TAXA {
+  text-align: end;
+  font-size: 20px;
+  height: 25px;
+  width: 190px;
+  border-radius: 5px;
+}
+
+#total {
+  text-align: end;
+  font-size: 20px;
+  height: 25px;
+  width: 190px;
+  border-radius: 5px;
+}
+#delete_home {
+  background-color: #6a65fe;
+  width: 80px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#edit_home {
+  background-color: #6a65fe;
+  width: 80px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#popup{
+  border: none;
+}
+
+#cancel {
+  background-color: #6a65fe;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#finish {
+  background-color: #6a65fe;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#total_total {
+  margin-left: 55px;
+}
+
+#botao_baixo {
+  margin-left: 350px;
+  margin-top: 10px;
+}
+
+#escolha {
+  gap: 5px;
+  margin-top: 10px;
+  display: grid;
+  grid-template:
+    "barra_escolha barra_escolha barra_escolha barra_escolha barra_escolha"
+    "amount taxname TAX valuename PRICE"
+    "addproducts addproducts addproducts addproducts addproducts";
+}
+
+#valuename {
+  grid-area: valuename;
+}
+
+#taxname {
+  grid-area: taxname;
+}
+
+#barra_escolha {
+  grid-area: barra_escolha;
+  background-color: #fafafa;
+}
+
+#amount {
+  grid-area: amount;
+  background-color: #fafafa;
+}
+
+#TAX {
+  grid-area: TAX;
+  background-color: #fafafa;
+}
+
+#PRICE {
+  grid-area: PRICE;
+}
+
+#addproducts {
+  height: 30px;
+  grid-area: addproducts;
+  background-color: #6a65fe;
+}
+
+#taxname,
+#valuename {
+  border: none;
+  text-align: end;
+  font-size: 20px;
+  width: 55px;
+  background-color: rgb(255, 255, 255);
+}
+#valuename {
+  margin-left: 25px;
+}
+#TAX,
+#PRICE {
+  width: 50px;
+  width: 80px;
+  text-align: end;
+}
+
+#barra_escolha,
+#amount,
+#TAX,
+#PRICE,
+#addproducts {
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+#amount {
+  width: 130px;
+  text-align: end;
+}
+#addproducts,
+#barra_escolha {
+  height: 40px;
+}
+
+#borda {
+  border: 1px solid #aaaa;
+  margin: 0px 40px;
+}
+
+#linhaBaixo {
+  border: 1px solid #aaaa;
+}
+
+h1 {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  font-size: 32px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+th,
+td {
+  border: 2px solid #b8b8b8;
+  background-color: #fffdfd;
+  text-align: center;
+  padding: 15px;
+}
+
+table {
+  margin-top: 10px;
+  border-collapse: collapse;
+  width: 100%;
+}

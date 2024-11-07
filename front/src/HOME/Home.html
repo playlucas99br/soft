@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de ponto de venda (PDV)</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+    <div id="tudo">
+      <header>
+        <h1><a href="../HOME/Home.html">Suite store</a></h1>
+        <ul>
+          <li><a href="../Products/Products.html">Products</a></li>
+          <li><a href="../Categories/Categories.html">Categories</a></li>
+          <li><a href="../History/History.html">History</a></li>
+        </ul>
+      </header>
+      <div id="qualquer">
+        <form id="chefe">
+          <section id="escolha">
+            <select name="category" id="barra_escolha"><option disabled selected>Select a product</option></select>
+            <input type="number" name="Amount" id="amount" placeholder="Amount" />
+
+            
+            <input type="text" value="Tax:" id="taxname" disabled>
+            <input type="text" name="Tax" id="TAX" placeholder="Tax" readonly />
+
+            <input type="text" id="popup" name="txtstart" style="width:150px" readonly value="">
+
+            <input type="text" value="Value:" id="valuename" disabled>
+            <input type="text"name="Price"id="PRICE"placeholder="Price"readonly/>
+
+
+            <input type="button" class="addproducts" id="addproducts" value="Add product" onclick="addnewhome()" />
+          </section>
+        </form>
+
+        <div id="borda"></div>
+
+        <section id="direita">
+          <table id="table">
+            <thead>
+              <tr>
+                <th>Cod</th>
+                <th>Product</th>
+                <th>Amount</th>
+                <th>Price</th>
+                <th>Tax</th>
+                <th colspan="2">Action</th>
+              </tr>
+            </thead> 
+              <tbody id="tabela_produtos"></tbody>
+          </table>
+          <section id="baixo">
+            <label for="tax" id="tax_tax">Tax:</label>
+            <input type="text" id="TAXA" name="Taxtotal"  disabled />
+            <br />
+            <label for="Total" id="total_total">Total:</label>
+            <input type="number" id="total" disabled/>
+            <br />
+          </section>
+          <section id="botao_baixo">
+            <input type="button" name="cancel" id="cancel" onclick="cleartable()" value="Cancel" />
+            <input type="button" name="finish" id="finish" onclick="finishtrue()"value="Finish" />
+          </section>
+        </section>
+      </div>
+      <div id="linhaBaixo"></div>
+    </div>
+ 
+  <script src="index.js"></script>
+  </body>
+
+</html>

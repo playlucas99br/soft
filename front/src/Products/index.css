@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  color: black;
+  position: relative;
+  background-color: #6a65fe;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+#delete_1 {
+  background-color: #6a65fe;
+  width: 80px;
+  height: 30px;
+  font-weight: bold;
+}
+
+#delete_2 {
+  background-color: #6a65fe;
+  width: 80px;
+  height: 30px;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  font-family: Arial;
+  gap: 10px;
+}
+
+h1 {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  font-family: arial;
+  font-size: 32px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+p {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+th,
+td {
+  border: 2px solid #b8b8b8;
+  background-color: #fffdfd;
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+}
+
+table {
+  margin-top: 10px;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+#borda {
+  border: 1px solid #aaaa;
+  margin: 0px 40px;
+}
+#delete_products {
+  background-color: #6a65fe;
+  width: 80px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+#tudo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#produtos {
+  margin-top: 10px;
+  display: grid;
+  grid-template:
+    "productname productname productname"
+    "amount categoryselect unitprice"
+    "add_product2 add_product2 add_product2";
+  gap: 5px;
+}
+
+
+#categoryselect {
+  grid-area: categoryselect;
+}
+
+#productname {
+  grid-area: productname;
+}
+
+#amount {
+  grid-area: amount;
+}
+
+#unitprice {
+  grid-area: unitprice;
+}
+
+#add_product2 {
+  grid-area: add_product2;
+  background-color: #6a65fe;
+  font-weight: bold;
+}
+
+#categoryselect,
+#productname,
+#amount,
+#unitprice {
+  background-color: #fafafa;
+}
+
+#categoryselect{
+  width: 100%;
+}
+
+#amount,
+#unitprice {
+  width: 100px;
+  background-color: #fafafa;
+}
+
+#product {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+
+#linhaBaixo {
+  border: 1px solid #aaaa;
+}
+
+#categoryselect,
+#productname,
+#amount,
+#unitprice,
+#add_product2 {
+  color: black;
+  font-weight: blod;
+  padding: 15px;
+  font-size: 18px;
+}

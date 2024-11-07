@@ -1,0 +1,7 @@
+.genericTable th:last-of-type{
+    border-top-right-radius: 15px;
+}
+
+.genericTable th:first-of-type{
+    border-top-left-radius: 15px;
+}

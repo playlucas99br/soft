@@ -1,0 +1,18 @@
+.inputext{
+    background-color: var(--lightbarswhite);
+    color: var(--inputselect);
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--addblack);
+    outline: none;
+}
+
+.inputext:focus{
+    border: 2px solid var(--lightbarsplus);
+}
+
+::-webkit-input-placeholder {
+    color: var(--inputbase);
+ }
+
